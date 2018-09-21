@@ -1,0 +1,36 @@
+/*blog.jsp页面的css*/
+
+ul {list-style: none;} /*  去掉ul标签默认的点样式  */
+a{text-decoration:none;font-size:18px;}
+*{margin:0;padding:0;}
+
+/*左半边div*/
+#all-left{position:relative;width:40%;height:650px;float:left;
+background:url(../images/timg.jpg);background-size:100% 100%;background-repeat:no-repeat;}
+/*博客div*/
+#blog{position:absolute;width:100%;height:100%;background:white;opacity:0.75;}
+/*博客div的部分，显示头像和个人介绍*/
+#returnIndex{position:relative;float:left;font-family:楷体;font-size:20px;margin:5px 0 0 10px;color:#000079;}
+#blog-top{position:relative;margin:20px 0 40px 0;text-align:center;}
+#sculpture{position:relative;width:100px;height:100px;margin:auto;border-radius:50%;background:url(../images/me.jpg);
+background-size:100%;background-position:center;}
+#introduce p{font-family:楷体;font-size:20px;color:#616130;}
+/*博客div的中部css,显示留言*/
+#blog #display{position:relative;width:400px;height:400px;overflow:hidden;padding-left:30px;}
+#display h2{font-family:黑体;margin-bottom:20px;}
+#display #displayComments{position:relative;clear:both;width:400px;margin-top:20px;border-bottom:1px solid #4f4f4f;font-family:华文楷体;}
+#displayComments #con{font-size:18px;}
+#displayComments #na{text-align:right;}
+#display #bt{position:relative;margin-top:20px;text-align:center;}
+
+/*右半部分div*/
+#all-right{position:relative;width:60%;height:650px;float:right;text-align:center;background:#f0f0f0;}
+#all-right p{font-size:24px;font-family:华文楷体;margin-top:100px;}
+/*留言板的div*/
+#message{position:relative;width:500px;height:280px;border-radius:5px;left:50%;margin-left:-250px;margin-top:10px;background-color:white;}
+#uimg{width:45px;height:40px;padding-top:10px;margin-left:20px;float:left;}
+#uimg img{position:relative;width:40px;height:40px;border-radius:50%;}
+#uname{position:relative;padding-top:20px;margin-left:20px;margin-bottom:10px;text-align:left;float:float;}
+#spell{position:relative;margin-left:65px;margin-bottom:20px;padding-top:20px;text-align:left;}
+#spell textarea{width:400px;height:120px;}
+#bctton{position:relative;margin:auto;}
